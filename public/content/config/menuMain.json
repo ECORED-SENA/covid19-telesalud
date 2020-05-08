@@ -1,0 +1,98 @@
+[
+  {
+    "icon": "fa fa-1x fa-home",
+    "slug": "external",
+    "title": "Volver al Inicio",
+    "path": "../"
+  },
+  {
+        "icon": "",
+        "slug": "telesalud-telemedicina",
+        "title": "1. Telesalud",
+        "breadcrumb": ["Inicio","Telesalud"],
+        "path": "pages/1-telesalud-telemedicina.html",
+        "submenu": [
+          {
+            "icon": "video",
+            "slug": "telesalud-telemedicina",
+            "title": "1.1 Qué es Telesalud?",
+            "breadcrumb": ["Inicio","Telesalud", "Qué es Telesalud?"],
+            "path": "pages/1-telesalud-telemedicina.html"
+          },
+          {
+            "icon": "video",
+            "slug": "beneficios-telesalud",
+            "title": "1.2 Beneficios de la Telesalud",
+            "breadcrumb": [
+              "Inicio",
+              "Telesalud",
+              "Beneficios de la Telesalud"
+            ],
+            "path": "pages/1-2-beneficios-telesalud.html"
+          }
+        ]    
+    },
+    {
+      "icon": "fa fa-1x fa-question-circle",
+      "slug": "quiz-telesalud",
+      "title": "Actividad didáctica No 1",
+      "breadcrumb": [
+        "Inicio",
+        "Actividades didactica"
+      ],
+      "path": "pages/actividad-1.html"
+    },   
+    {
+        "icon": "video",
+        "slug": "actividades-telesalud",
+        "title": "2. Actividades de Telesalud: Teleapoyo, Teleorientación.",
+        "breadcrumb": ["Inicio", "Actividades de Telesalud: Teleapoyo, Teleorientación"],
+        "path": "pages/2-actividades-telesalud.html"    
+                
+    },    
+    {
+      "icon": "fa fa-1x fa-question-circle",
+      "slug": "quiz-teleorientacion",
+      "title": "Actividad didáctica No 2",
+      "breadcrumb": [
+        "Inicio",
+        "Actividades didactica"
+      ],
+      "path": "pages/actividad-2.html"
+    },
+    {
+      "icon": "",
+      "slug": "categorias-telemedicina",
+      "title": "3. Categorías de Telemedicina",
+      "breadcrumb": [
+        "Inicio",
+        "Categorías de Telemedicina"
+      ],
+      "path": "pages/3-1-telemedicina-interactiva-nointeractiva.html",
+        "submenu": [
+          {
+            "icon": "video",
+            "slug": "telemedicina-interactiva-nointeractiva",
+            "title": "3.1 Telemedicina interactiva y no interactiva",
+            "breadcrumb": [
+              "Inicio",
+              "Categorías de Telemedicina",
+              "Telemedicina interactiva y no interactiva"
+            ],
+            "path": "pages/3-1-telemedicina-interactiva-nointeractiva.html"
+          },
+          {
+            "icon": "video",
+            "slug": "teleexperticia-telemonitoreo",
+            "title": "3.2 Teleexperticia y telemonitoreo",
+            "breadcrumb": [
+              "Inicio",
+              "Categorías de Telemedicina",
+              "Teleexperticia y telemonitoreo"
+            ],
+            "path": "pages/3-2-teleexperticia-telemonitoreo.html"
+          }
+        ]
+    } 
+    
+]

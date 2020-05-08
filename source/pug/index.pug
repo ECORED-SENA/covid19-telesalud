@@ -1,0 +1,204 @@
+doctype
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+    title TELESALUD TE CUIDA
+    meta(meta name="description" content="Este evento de divulgación tecnológica (EDT), presenta al personal en salud la Telesalud, como estrategia para mejorar el acceso, la resolutividad, la continuidad y la calidad de la atención clínica de pacientes sospechosos y diagnosticados con COVID-19, impactando la salud pública y la educación para la salud mediante el uso de las TIC.")    
+    link(rel="icon",type="image/svg+xml",href="assets/images/logos/senaLogo.svg")
+    link(rel="stylesheet", href="assets/fonts/feather/feather.css")
+    link(rel="stylesheet", href="assets/fonts/fontawesome/css/font-awesome.css")
+    link(href='assets/css/animate.css', rel='stylesheet')
+    link(rel="stylesheet", href="assets/css/main.css?v=1.2")
+
+  body
+    header.header__programa
+      .container 
+        .header__nav.row.align-items-center         
+          .header__nav__logo.col-1
+            include ../assets/images/logos/senaLogo.svg
+
+          .header__nav__items.col-11
+            .row.justify-content-end              
+              a(href="#resultados") objetivos
+              a(href="#temas") desarrollo de contenidos
+              a(href="#creditos") créditos
+        .header__info.row.align-items-center
+          .header__info__abstract.col-12.col-lg-6
+            h3.wow.bounceIn Evento de divulgación tecnológica para la mitigación de la pandemia COVID-19            
+            h1.text-uppercase.wow.bounceIn(data-wow-delay=".3s") TELESALUD TE CUIDA
+            .horizontal-divider 
+            p.wow.fadeIn(data-wow-delay=".6s") Este evento de divulgación tecnológica (EDT), presenta al personal en salud la Telesalud, como estrategia para mejorar el acceso, la resolutividad, la continuidad y la calidad de la atención clínica de pacientes sospechosos y diagnosticados con COVID-19, impactando la salud pública y la educación para la salud mediante el uso de las TIC      
+            a.btn.btn-danger(href="content/", data-wow-delay=".3s").wow.pulse Ver contenidos        
+          .header__info__imagen.col-md-6.d-none.d-lg-block.wow.bounceInRight(data-wow-delay=".8s")
+            img(src="content/images/header/header_media.svg", data-wow-delay="1.4s").wow.rubberBand
+ 
+    main
+      section#resultados.bgColor-LightBaseColor
+        .container
+          .row.justify-content-center.align-items-start
+            .section_divider.svg_color01
+              include ../assets/images/componente/sectionDivider.svg  
+        .container
+          .row
+            .section__subtitle
+              h2 Objetivos
+              .horizontal-divider
+
+          .row.justify-content-center             
+            .card__goal.col-10              
+              .card__goal__description
+                // span Cod  912948593
+                p Acercar el concepto de Telesalud y Telemedicina al personal de salud, a fin de favorecer y regular el flujo normal de los servicios de atención en salud en Colombia frente a la pandemia de COVID-19     
+      section#temas.bgColor-NeutralBaseColor
+        .container
+          .row.justify-content-center.align-items-start
+            .section_divider.svg_color02
+              include ../assets/images/componente/sectionDivider.svg 
+        .container
+          .row
+            .section__subtitle
+              h2 Desarrollo de
+                br
+                |contenidos
+              .horizontal-divider
+
+          .row.justify-content-center
+            .col-12.col-sm-10
+              .card.wow.flipInX(data-wow-delay=".4s")
+                .card-body
+                  ul.list-group.list-group-flush.list.my-n3.nav-temas
+                    li.list-group-item.nav-tema-item
+                      .row.align-items-center
+                        .col-auto
+                          .avatar.avatar-sm
+                            span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 1
+                        .col.ml-n2
+                          span.nav-tema-item__titulo 
+                            a(href="content/#page/telesalud-telemedicina/") Telesalud y Telemedicina
+                        .col-auto
+                          // Button
+                          a(href='content/#page/telesalud-telemedicina/').btn.btn-light.nav-tema-item__btn
+                            | Ver más
+                    li.list-group-item.nav-tema-item
+                      .row.align-items-center
+                        .col-auto
+                          .avatar.avatar-sm
+                            span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 2
+                        .col.ml-n2
+                          span.nav-tema-item__titulo 
+                            a(href="content/#page/actividades-telesalud/") Actividades de Telesalud: Teleapoyo, Teleorientación
+                        .col-auto
+                          // Button
+                          a(href='content/#page/actividades-telesalud/').btn.btn-light.nav-tema-item__btn
+                            | Ver más
+                    li.list-group-item.nav-tema-item
+                      .row.align-items-center
+                        .col-auto
+                          .avatar.avatar-sm
+                            span.nav-tema-item__icon.avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 3
+                        .col.ml-n2
+                          span.nav-tema-item__titulo 
+                            a(href="content/#page/categorias-telemedicina/") Categorías de Telemedicina 
+                        .col-auto
+                          // Button
+                          a(href='content/#page/categorias-telemedicina/').btn.btn-light.nav-tema-item__btn
+                            | Ver más
+             
+
+    footer#creditos
+      .container.footer__header
+        .row
+          .footer__info__title.col-2
+            h1 Créditos               
+            .horizontal-divider-footer
+
+      .container
+        .row.footer__info          
+          .footer__info__column.col-md-5        
+            .footer__info__column__profile
+              h3.mb-1 <u>Diseño y Desarrollo Recursos Educativos Digitales</u>
+              span.text-small.text-uppercase CENTRO INDUSTRIAL DEL DISEÑO Y LA MANUFACTURA   
+              br
+              span.text-small Floridablanca, Santander
+              
+              p.mt-4.mb-3
+                | #[strong Francisco José Lizcano Reyes]<br/>
+                span.text-small Responsable del Equipo <br/>
+                //span.text-small.text-uppercase CENTRO INDUSTRIAL DEL DISEÑO Y LA MANUFACTURA   
+            .footer__info__column__profile             
+              p.mb-3
+                | #[strong Lady Adriana Ariza Luque ]<br/>   
+                | #[strong Daniel Ricardo Mutis Gomez ]<br/>                  
+                | #[strong Eulises Orduz Amezquita ]<br/>                       
+                | #[strong Nelson Iván Vera Briceño]<br/>
+                | #[strong Carlos Julian Ramirez Benitez]<br/>
+                | #[strong Leyson Fabian Castaño Perez]<br/>
+                | #[strong Luis Gabriel Urueta Alvarez]<br/>                             
+                | #[strong Víctor Raúl Cárdenas Cáceres]<br/>        
+                span.text-small Diseño Web & Producción Audiovisual<br/>
+                //span.text-small.text-uppercase CENTRO INDUSTRIAL DEL DISEÑO Y LA MANUFACTURA  
+
+            .footer__info__column__profile
+              h3.mb-1 <u>Autores</u>
+              span.text-small.text-uppercase Centro Servicios de Salud
+              br
+              span.text-small Antioquia
+
+              p.mt-4.mb-3
+                | #[strong Liliana Velez]<br/>
+                span.text-small Instructor
+
+              p.mb-3
+                | #[strong Dra. Nora Luz Salaza]<br/>
+                span.text-small Subdirectora
+            
+          .footer__info__column.col-md-5  
+            .footer__info__column__profile
+              h3 <u>Revisión</u>
+
+              p.mb-3 
+                strong Francisco Ariza
+                br
+                span.text-small Grupo de Formación  THS
+                br
+                span.text-small.text-uppercase Ministerio de Salud y Protección Social
+
+              p.mb-3 
+                strong Silvia Mora
+                br
+                span.text-small Grupo de Formación  THS
+                br
+                span.text-small.text-uppercase Ministerio de Salud y Protección Social
+
+              p.mb-3 
+                strong Janeth Ramirez
+                br
+                span.text-small.text-uppercase Secretaría Departamental de Salud del Valle
+
+              p.mb-3
+                | #[strong Ruth Mireya Suárez]<br/>   
+                | #[strong Emilia Sarmiento]<br/>                
+                span.text-small.text-uppercase SENA - RED SALUD
+
+              p.mb-3
+                | #[strong Rafael Neftali Lizcano]<br/>   
+                span.text-small Asesor Pedagógico
+                br
+                span.text-small.text-uppercase Centro Industrial del Diseño y la Manufactura
+
+              p.mb-3
+                | #[strong Ingry Dayanna Bonilla]<br/>   
+                span.text-small Dinamizadora Virtual
+                br
+                span.text-small.text-uppercase Dirección de Formación Profesional, Dirección General
+
+
+          .footer__info__column.col-md-2  
+            .d-flex.flex-column
+              img(src="assets/images/logos/senaLogo.svg", alt="Logo SENA")
+
+
+
+    script(src="assets/js/plugins.js")
+    script(src="content/js/pages.js")
