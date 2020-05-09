@@ -1,3 +1,4 @@
+include ../../mixins/creditosFooter
 #cont.container-fluid    
     .row
         #verticalNavbar.col-md-4.col-lg-3.collapse.width.show
@@ -7,7 +8,7 @@
                     li
                         a#verticalNavbar__title.verticalNavbar__link-active
                             i.icon.index
-                            span#verticalNavbar__title__text índice temático.
+                            span#verticalNavbar__title__text Contenidos.
 
                 ul#verticalNavbar__extra.col-md-4.col-lg-3.p-0.m-0.fixed-bottom.width.collapse.show
 
@@ -19,7 +20,7 @@
                     .row.align-items-center 
                       .header__curso__informacion.col-12.col-lg-6
                         h3.wow.bounceIn Evento de divulgación tecnológica para la mitigación de la pandemia COVID-19
-                        h1.text-uppercase.wow.bounceIn(data-wow-delay=".3s") TELESALUD TE CUIDA
+                        h1.text-uppercase.wow.bounceIn(data-wow-delay=".3s") EDT-TELESALUD TE CUIDA DEL COVID-19
                         .keywords
                           span.badge.badge-pill.badge-light.mr-2 #Telemedicina
                           span.badge.badge-pill.badge-light.mr-2 #Telesalud
@@ -40,4 +41,4 @@
             
             section#mainContent
 
-            include creditos.pug
+            +creditosFooter("../assets/images/logos/senaLogo.svg")        

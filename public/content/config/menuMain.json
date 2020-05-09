@@ -3,7 +3,7 @@
     "icon": "fa fa-1x fa-home",
     "slug": "external",
     "title": "Volver al Inicio",
-    "path": "../"
+    "path": "../index.html"
   },
   {
         "icon": "",
@@ -38,7 +38,7 @@
       "title": "Actividad didáctica No 1",
       "breadcrumb": [
         "Inicio",
-        "Actividades didactica"
+        "Actividad didáctica No 1"
       ],
       "path": "pages/actividad-1.html"
     },   
@@ -56,7 +56,7 @@
       "title": "Actividad didáctica No 2",
       "breadcrumb": [
         "Inicio",
-        "Actividades didactica"
+        "Actividad didáctica No 2"
       ],
       "path": "pages/actividad-2.html"
     },
